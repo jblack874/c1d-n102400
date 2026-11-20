@@ -1,0 +1,5 @@
+x1 <- w4 end
+x2 <- w1 end
+x3 <- w5 end
+x4 <- w2 end
+h <- w4 split to 204,800 cells (exact refinement, same score)

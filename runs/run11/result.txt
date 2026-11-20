@@ -1,0 +1,5 @@
+pair | end arm (E) | distant arm (D) | D minus E | E gain | D gain
+seed 1 | 1.4513063774203194 | 1.4513063760239122 | -1.396e-09 | 2.105e-10 | 1.755e-09
+seed 2 | 1.4513063770681027 | 1.4513063765133685 | -5.547e-10 | 5.628e-10 | 1.265e-09
+seed 3 | 1.4513063768750354 | 1.4513063755092774 | -1.366e-09 | 7.558e-10 | 2.270e-09
+mean gain E 5.097e-10  D 1.763e-09  ratio 3.5x; mean final D-E -1.106e-09; D better in 3/3 pairs (one-sided sign test p = 0.125)

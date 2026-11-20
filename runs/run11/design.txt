@@ -1,0 +1,4 @@
+Seed-selection test, run 11. Budget per chain: 15 samples x 25 s polish, p0 4096, sigma 1e-8..1e-6 (identical).
+Arm E (end): start = a5 end, score 1.4513063776308637
+Arm D (distant): start = samp_a5_14.npz, score 1.4513063777787929, distance to a5 end 5.8e-08
+Random seeds (drawn at random, shared by both arms): [990907645, 1085923292, 1810947882]

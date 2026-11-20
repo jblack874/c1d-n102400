@@ -1,0 +1,5 @@
+y1 <- x1 end score 1.4513063825127679 dist-to-end 0.0e+00
+y2 <- samp_x1_13.npz score 1.4513063825180168 dist-to-end 1.2e-09
+y3 <- samp_x1_15.npz score 1.4513063827093395 dist-to-end 2.2e-09
+y4 <- samp_x1_11.npz score 1.4513063828690904 dist-to-end 4.3e-08
+h <- x1 end split to 204,800 cells

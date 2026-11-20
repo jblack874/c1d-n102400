@@ -1,0 +1,6 @@
+h start best 1.4513063825127674 n 204800 args {'tag': 'h', 'shared': 'np8/h', 'seconds': 560.0, 'seed': 89, 'glob': False, 'smin': 1e-08, 'smax': 1e-06, 'p0': '4096', 'secs': '90', 'n': 4, 'bmin': 16, 'bmax': 4096}
+h k 1 t 91 sigma 1.42e-07 block 1041@156881 p0 4096 secs 90 in 1.4513063825127674 out 1.4513063825762764 d +6.351e-11 vs_bar -1.811e-08
+h k 2 t 182 sigma 1.42e-08 block 262@94334 p0 4096 secs 90 in 1.4513063825127674 out 1.4513063824987722 d -1.400e-11 vs_bar -1.819e-08 WIN
+h k 3 t 273 sigma 6.17e-08 block 1699@148293 p0 4096 secs 90 in 1.4513063824987722 out 1.4513063825375134 d +3.874e-11 vs_bar -1.815e-08
+h k 4 t 364 sigma 7.85e-07 block 1109@1726 p0 4096 secs 90 in 1.4513063824987722 out 1.4513064215702183 d +3.907e-08 vs_bar +2.088e-08
+h final samples 4 wins 1 shared best 1.4513063824987722 vs_bar -1.819e-08

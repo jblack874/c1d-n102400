@@ -1,0 +1,5 @@
+z1 <- y1 end score 1.4513063796015258 dist-to-y1 0.0e+00
+z2 <- y4 end score 1.4513063815992078
+z3 <- samp_y1_04.npz score 1.4513063821338670 dist-to-y1 6.6e-08
+z4 <- samp_y1_05.npz score 1.4513063821185712 dist-to-y1 6.5e-08
+z5 <- samp_y1_08.npz score 1.4513063822918784 dist-to-y1 6.4e-08

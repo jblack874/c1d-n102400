@@ -1,0 +1,5 @@
+a1 <- z1 end score 1.4513063788537763
+a2 <- z5 end score 1.4513063797655834
+a3 <- samp_z1_11.npz score 1.4513063788598479 dist-to-own-end 1.2e-08
+a4 <- samp_z1_09.npz score 1.4513063792003196 dist-to-own-end 9.5e-09
+a5 <- samp_z5_06.npz score 1.4513063816422624 dist-to-own-end 3.4e-08
