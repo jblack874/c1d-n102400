@@ -25,6 +25,13 @@ PR #374's construction, so this is an improved construction, not a new one.
 | Search economics | 13 search steps over about 95 minutes of 2-core compute on 2026-11-19/20 (shotgun, NP-beta1 runs 1-4, NP-beta2 runs 5-12); 59 exact-checked certificates beat #374 (1 shotgun, 1 each in runs 1-2, 5 per run in runs 3-10, 6 in run 11, 10 in run 12); hit rate 20-60% per chain. |
 | Decision | Archived 23 Nov 2026 (superseded by #345). Earlier notes: continuing (gate still loose). Run 11, a controlled test (same budget, 3 random seeds per arm), found that starting from a sample 5.8e-8 from the chain end beat starting from the chain end in 3 of 3 pairs (mean gain 1.76e-9 vs 5.1e-10); see runs/run11. Run 12 tested five seed distances (0 to 5.9e-8) with two random seeds each; see runs/run12. |
 
+## Lean 4 proof (added 23 Nov 2026)
+
+`lean/` adds a Lean 4 proof that this certificate's exact value is 2054622084077908729297673521179121664000/1415705270714577825348504941537856324889,
+with the maximum at knot 165136. It uses no Mathlib and only the standard axioms; Lean's default and paranoid kernels,
+lean4lean, nanoda and con-leche accept it (con-ron ran out of memory on the 8 GB build machine). The knot formula from
+step function to coefficients is the one step left unformalized. See `lean/README.md`. The Python checkers above are unchanged.
+
 ## Record chain (each step's best; every row exact-checked by both checkers)
 
 | Step | Time | Exact value | Below #374 (x1e-9) | exact_check / verify_standalone |

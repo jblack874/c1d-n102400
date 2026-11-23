@@ -1,0 +1,10 @@
+name = "autoconv"
+defaultTargets = ["Autoconv", "C1d"]
+
+[[lean_lib]]
+name = "Autoconv"
+roots = ["Autoconv.Basic", "Autoconv.Kronecker", "Autoconv.Check", "Autoconv.Pack", "Autoconv.Bits", "Autoconv.Final"]
+
+[[lean_lib]]
+name = "C1d"
+roots = ["C1d.Data", "C1d.Challenge", "C1d.Solution"]

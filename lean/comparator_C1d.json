@@ -1,0 +1,6 @@
+{
+  "challenge_module": "C1d.Challenge",
+  "solution_module": "C1d.Solution",
+  "theorem_names": ["C1d.certificate"],
+  "permitted_axioms": ["propext", "Quot.sound", "Classical.choice"]
+}
