@@ -1,0 +1,7 @@
+Run 12: seed-distance deep dive. Budget per chain: 15 samples x 25 s, p0 4096, sigma 1e-8..1e-6. Two legs; within a leg all 5 seeds share one random seed.
+Random seeds: leg 1 = 136426556, leg 2 = 1580567163
+S0: np11/D3/best.npz, distance to D3 end 0
+S1: np11/D3/samp_D3_11.npz, distance to D3 end 6.9e-9
+S2: np11/D3/samp_D3_07.npz, distance to D3 end 1.4e-8
+S3: np11/D1/best.npz, distance to D3 end 3.7e-8
+S4: np11/D2/best.npz, distance to D3 end 5.9e-8
